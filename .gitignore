@@ -1,0 +1,23 @@
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.tmp_versions/
+.*.cmd
+.cache.mk
+modules.order
+Module.symvers
+
+# CLI build artifacts
+cli/fwctl
+
+# OS and Editor artifacts
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
